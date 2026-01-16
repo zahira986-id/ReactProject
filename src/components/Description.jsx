@@ -18,11 +18,7 @@ const Description = () => {
             description: 'Une interface qui s\'adapte parfaitement à tous les types d\'écrans.',
             icon: '📱'
         },
-        {
-            title: 'Style Moderne',
-            description: 'Utilisation de CSS moderne pour un rendu visuel premium et élégant.',
-            icon: '🎨'
-        }
+
     ];
 
     return (
@@ -43,20 +39,7 @@ const Description = () => {
                         </div>
                     ))}
                 </div>
-                <div className="description-content">
-                    <div className="text-content">
-                        <h3>Une expérience utilisateur fluide</h3>
-                        <p>
-                            Notre plateforme est conçue avec une attention méticuleuse aux détails. Chaque transition, chaque interaction est pensée pour être la plus naturelle possible. En utilisant le rendu côté client et des stratégies de mise en cache intelligentes, nous garantissons une navigation sans accroc.
-                        </p>
-                        <p>
-                            Que vous soyez un développeur cherchant une base solide ou un utilisateur final, ViteProject répond à vos besoins avec élégance.
-                        </p>
-                    </div>
-                    <div className="visual-content">
-                        <div className="abstract-shape"></div>
-                    </div>
-                </div>
+
             </div>
         </section>
     );
